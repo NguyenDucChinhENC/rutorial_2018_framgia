@@ -4,7 +4,6 @@ en:
   static_pages:
     help:
       help: "Help"
-<<<<<<< HEAD
       tutorial: "Rails Tutorial help page"
       ger_help: "Get help on the Ruby on Rails Tutorial at the"
     home:
@@ -23,9 +22,3 @@ en:
       teach: "to teach web development with"
       ror: "Ruby on Rails"
       sample: "This is the sample application for the tutorial."
-=======
-    home:
-      home: "Home"
-    about:
-      about: "About"
->>>>>>> chap 3
