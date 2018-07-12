@@ -1,6 +1,9 @@
 en:
-  name_app: "Ruby on Rails Tutorial Sample App"
+  app_name: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
+  home: "Home"
+  Help: "Help"
+  About: "About"
   static_pages:
     help:
       help: "Help"
@@ -12,6 +15,7 @@ en:
       this_home: "This is the home page for the"
       tutorial: "Ruby on Rails Tutorial"
       sample: "sample application."
+      signup_now: "Sign up now!"
     about:
       about: "About"
       book_name: "Ruby on Rails Tutorial"
@@ -22,3 +26,6 @@ en:
       teach: "to teach web development with"
       ror: "Ruby on Rails"
       sample: "This is the sample application for the tutorial."
+  users:
+    new:
+      signup: "Sign up"
