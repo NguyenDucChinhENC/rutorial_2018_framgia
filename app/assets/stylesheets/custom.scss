@@ -4,7 +4,7 @@
 $gray: #777;
 $white: #fff;
 $white_light: #eaeaea;
-$gray_drack: #555;
+$gray_drak: #555;
 $gray_black: #222;
 
 body {
@@ -64,7 +64,7 @@ p {
 }
 
 #logo{
-  @:hover {
+  &:hover {
     color: $white;
     text-decoration: none;
   }
@@ -73,7 +73,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $white_ligh;
+  border-top: 1px solid $white_light;
   color: $gray;
 }
 
