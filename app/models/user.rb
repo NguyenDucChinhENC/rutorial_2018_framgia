@@ -4,7 +4,7 @@ class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
   ATTRIBUTES_PARAMS = [:name, :email,
-    :password, :password_confirmation]
+    :password, :password_confirmation].freeze
 
   validates :name, presence: true, length: {maximum: Settings.max_name}
   validates :email, presence: true, length: {maximum: Settings.max_mail},
