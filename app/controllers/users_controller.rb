@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, except: [:new, :create]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update, :destroy]
   before_action :admin_user, only: :destroy
 
@@ -20,8 +20,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".flash.welcome"
+      @user.send_activation_email
+      flash[:new] = t "users.new.success"
       redirect_to @user
     else
       flash[:error] = t ".flash.error"

@@ -12,6 +12,8 @@ en:
   plz_login: "Please login"
   delete: "Delete"
   sure: "User Sure?"
+  active: "Acitvate"
+  text_to_active: "Welcome to the Sample App! Click on the link below to activate your account:"
   static_pages:
     help:
       help: "Help"
