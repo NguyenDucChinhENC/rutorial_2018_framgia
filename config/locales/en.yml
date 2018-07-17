@@ -61,3 +61,9 @@ en:
     create:
       flash:
         wrong_password_email_login: "Invalid email/password combination"
+  password_resets:
+    edit:
+      title: "Forgot password"
+      submit: "Submit"
+      reset: "Reset password"
+      confirmation: "Confirmation"
